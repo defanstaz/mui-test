@@ -6,11 +6,13 @@
   },
   "description": "https://github.com/mui-org/material-ui/blob/v5.3.0/docs/src/pages/components/autocomplete/ComboBox.js",
   "dependencies": {
-    "react-dom": "latest",
-    "react": "latest",
-    "@mui/material": "latest",
+    "@emotion/react": "latest",
     "@emotion/styled": "latest",
-    "@emotion/react": "latest"
+    "@mui/material": "latest",
+    "google-map-react": "^2.0.6",
+    "mui": "^0.0.1",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "version": "0.0.0",
   "scripts": {
@@ -18,5 +20,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
